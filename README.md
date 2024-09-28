@@ -2,7 +2,7 @@
 
 ## 環境構築
 ### Dockerビルド
-1. dd
+1. $git clone git@github.com:yuu-2-hue/coachtech-test.git
 2. docker-compose up -d --build
 ### Laravel環境構築
 1. docker-compose exec php bash

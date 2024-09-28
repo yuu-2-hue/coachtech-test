@@ -1,0 +1,236 @@
+/* ログアウトボタン */
+.form__logout--button{
+    width: 100px;
+    height: 34px;
+    background-color: rgba(240, 240, 240, 0.6);
+    color: rgba(217, 198, 181, 1);
+    border: 1px solid rgba(217, 198, 181, 1);
+    cursor: pointer;
+    transform: translateX(-50%);
+}
+
+/* ページ全体 */
+.admin__content{
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+/* ページタイトル */
+.admin__heading{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px auto;
+    color: #8B7969;
+}
+
+/* フォーム全体 */
+.admin__search{
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+/* フォームの各部品 */
+.search__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* 名前 メールアドレス */
+.form__input--text {
+    width: 350px;
+    height: 50px;
+    font-size: 16px;
+    border: none;
+    background-color: #F4F4F4;
+    color: #8B7969;
+    padding-left: 20px;
+}
+
+/* 性別、お問い合わせの種類 */
+.form__select--gender, .form__select--type {
+    height: 50px;
+    border: none;
+    font-size: 17px;
+    background-color: #F4F4F4;
+    color: #8B7969;
+    text-align: center;
+}
+
+/* 性別 */
+.form__select--gender{
+    width: 102px;
+}
+
+/* お問い合わせの種類 */
+.form__select--type{
+    width: 220px;
+}
+
+/* 日付 */
+.form__date{
+    width: 140px;
+    height: 50px;
+    border: none;
+    font-size: 17px;
+    background-color: #F4F4F4;
+    color: #8B7969;
+    text-align: center;
+}
+
+/* 検索 */
+.form__search{
+    width: 102px;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid rgba(139, 121, 105, 1);
+    background-color: rgba(130, 117, 106, 1);
+    color: white;
+    text-align: center;
+}
+
+/* リセット */
+.form__reset{
+    width: 102px;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid rgba(217, 198, 181, 1);
+    background-color: rgba(217, 198, 181, 1);
+    color: white;
+    text-align: center;
+}
+
+/*  */
+.admin__buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* エクスポートボタン */
+.admin__export--button button{
+    width: 150px;
+    height: 34px;
+    border: none;
+    font-size: 17px;
+    background-color: #F4F4F4;
+    color: #8B7969;
+    text-align: center;
+    margin: 30px 0px;
+    margin-left: 70px;
+}
+
+/* ページネーション */
+.admin__pagination--button button{
+    width: 150px;
+    height: 34px;
+    border: none;
+    font-size: 17px;
+    background-color: #F4F4F4;
+    color: #8B7969;
+    text-align: center;
+    margin: 30px 0px;
+    margin-right: 70px;
+}
+
+svg.w-5.h-5{
+    width: 30px;
+    height: 30px;
+}
+
+/* テーブル */
+.admin__content-list{
+    margin-bottom: 300px;
+}
+
+.content-list__table{
+    margin: 0 auto;
+    text-align: left;
+    width: 90%;
+    border: solid 1px #E0DFDE;
+}
+
+.content-list__table-row{
+    border: 1px solid rgba(224, 223, 222, 1);
+}
+
+.table__colum--item{
+    background-color: rgba(139, 121, 105, 1);
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+}
+
+.table__data--item{
+    color: rgba(139, 121, 105, 1);
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* モーダルウィンドウ */
+.form__button{
+    width: 80px;
+    height: 40px;
+    border: 1px solid rgba(217, 198, 181, 0.6);
+    font-size: 18px;
+    background-color: rgba(244, 244, 244, 0.3);
+    color: rgba(217, 198, 181, 1);
+}
+
+.modal__close-button{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid rgba(217, 198, 181, 1);
+    font-size: 20px;
+    background-color: white;
+    margin-left: 90%;
+    margin-top: 5%;
+}
+
+.modal-window{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 90%;
+    margin: 0;
+    padding: 10px 20px;
+    border: 1px solid #aaa;
+    background: #fff;
+    z-index: 2;
+}
+
+.modal-table {
+    font-size: 20px;
+}
+
+.modal-table__ttl{
+    width: 40%;
+    padding-left: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: start;
+}
+
+.modal-table__data{
+    width: 60%;
+    padding-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: none;
+    border: none;
+    text-align: start;
+}
+
+.delete-button{
+    width: 80px;
+    height: 40px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-top: 50px;
+}

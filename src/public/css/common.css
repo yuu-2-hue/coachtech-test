@@ -1,0 +1,30 @@
+/* ページ全体 */
+body{
+    font-family: "Inika", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* ヘッダー全体 */
+.header {
+    background-color: white;
+}
+
+/* ヘッダーの見た目の全体 */
+.header__inner {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    border-bottom: 1px solid #E0DFDE;
+}
+
+/* ヘッダーのロゴ(FashionablyLate) */
+.header__logo {
+    font-size: 40px;
+    color: #8B7969;
+    text-decoration: none;
+    margin-left: 50%;
+    margin-right: 20%;
+    transform: translateX(-50%);
+}

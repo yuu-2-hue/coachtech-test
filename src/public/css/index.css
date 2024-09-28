@@ -1,0 +1,164 @@
+/* ページ全体 */
+.contact-form__content{
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+/* ページタイトル */
+.contact-form__heading{
+    font-size: 35px;
+    text-align: center;
+    margin: 50px auto;
+    color: #8B7969;
+}
+
+/* フォーム全体 */
+.form{
+    margin: 0 auto;
+    text-align: center;
+    width: 80%;
+}
+
+/* フォームの各部品 */
+.form__group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+/* フォーム入力欄 */
+.form__group-content {
+    margin-right: 50px;
+}
+
+/* 項目名 */
+.form__group-title{
+    margin-left: 50px;
+}
+
+.form__label--item{
+    color: #8B7969;
+}
+
+.form__label--required{
+    color: red;
+}
+
+.form__error{
+    display: flex;
+    justify-content: end;
+    color: red;
+}
+
+.name__error{
+    margin-right: 130px;
+}
+
+/* 名前 */
+.form__input--text{
+    width: 250px;
+    height: 40px;
+    margin-left: 30px;
+    border: none;
+    background-color: #F4F4F4;
+    color: #8B7969;
+}
+
+/* 性別 */
+.form__input--radio{
+    transform: scale(1.5);
+    color: #8B7969;
+    top: 1px;
+    /* position: relative; */
+}
+
+.form__label--radio {
+    color: #8B7969;
+    margin-right: 110px;
+    margin-left: 7px;
+}
+
+.gender__error {
+    margin-right: 400px;
+}
+
+/* 電話 */
+.form__input--tel{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #F4F4F4;
+    color: #8B7969;
+}
+
+.form__label--hyphen{
+    color: #8B7969;
+    margin-left: 14.5px;
+    margin-right: 14.5px;
+}
+
+/* メールアドレス、住所、建物名 */
+.form__input--email, .form__input--address, .form__input--building{
+    width: 535px;
+    height: 40px;
+    margin-left: 30px;
+    border: none;
+    background-color: #F4F4F4;
+    color: #8B7969;
+}
+
+.email__error {
+    margin-right: 330px;
+}
+
+.address__error{
+    margin-right: 410px;
+}
+
+/* お問い合わせの種類 */
+.form__select{
+    width: 300px;
+    height: 40px;
+    margin-left: 30px;
+    border: none;
+    background-color: #F4F4F4;
+    color: #8B7969;
+}
+
+.form__select--option{
+    color: #8B7969;
+    background-color: #F4F4F4;
+}
+
+.content__error{
+    margin-right: 60px;
+}
+
+/* お問い合わせ内容 */
+.form__input--textarea{
+    width: 535px;
+    height: 100px;
+    margin-left: 30px;
+    padding-top: 10px;
+    border: none;
+    color: #8B7969;
+    background-color: #F4F4F4;
+}
+
+.detail__error{
+    margin-right: 350px;
+}
+
+/* ボタン */
+.form__button{
+    width: 160px;
+    height: 46px;
+    background-color: #82756A;
+    color: #F4F4F4;
+    font-size: 20px;
+    margin: 50px 0px;
+    border: none;
+    cursor: pointer;
+}
+

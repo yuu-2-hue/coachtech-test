@@ -1,0 +1,91 @@
+body {
+    background-color: rgba(241, 236, 231, 1);
+}
+
+
+/* ログインボタン */
+.form__register--button {
+    width: 100px;
+    height: 34px;
+    background-color: rgba(240, 240, 240, 0.6);
+    color: rgba(217, 198, 181, 1);
+    border: 1px solid rgba(217, 198, 181, 1);
+    cursor: pointer;
+    transform: translateX(-50%);
+}
+
+/* ページ全体 */
+.login__content {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+/* ページタイトル */
+.login__heading {
+    font-size: 35px;
+    text-align: center;
+    margin: 50px auto;
+    color: #8B7969;
+}
+
+.login__content--frame {
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 736px;
+    height: 576px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(197, 185, 176, 1);
+}
+
+.login__group--content{
+    margin-top: 100px;
+}
+
+.login__group {
+    margin: 0px auto;
+    text-align: center;
+    width: 60%;
+}
+
+.login__title--item {
+    font-size: 25px;
+    color: rgba(139, 121, 105, 1);
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+.login__input--item {
+    width: 445px;
+    height: 55px;
+    background-color: rgba(244, 244, 244, 1);
+    border: none;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+.login__form {
+    margin: 0px auto;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.form__button {
+    width: 120px;
+    height: 46px;
+    font-size: 20px;
+    background-color: rgba(130, 117, 106, 1);
+    border: none;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.email__error{
+    color: red;
+}
+
+.password__error{
+    color: red;
+}

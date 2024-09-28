@@ -1,0 +1,81 @@
+/* ページ全体 */
+.confirm__content {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+/* ページタイトル */
+.confirm__heading {
+    font-size: 35px;
+    text-align: center;
+    margin: 50px auto;
+    color: #8B7969;
+}
+
+/* 確認画面全体 */
+.confirm{
+    margin-bottom: 100px;
+}
+
+.confirm__table{
+    margin: 0 auto;
+    text-align: left;
+    width: 70%;
+    border: solid 1px #E0DFDE;
+}
+
+/* 表の左側 */
+.confirm__table--title{
+    background-color: #BAA899;
+    color: #F4F4F4;
+    border: solid 1px #E0DFDE;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+/* 表の右側 */
+.confirm__table--content{
+    color: #BAA899;
+    border: solid 1px #E0DFDE;
+    padding: 20px 100px;
+}
+
+.confirm__table--content input{
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+/* 二つのボタン */
+.confirm__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    margin-bottom: 0px;
+}
+
+/* 送信ボタン */
+.confirm__button--submit{
+    width: 120px;
+    height: 42px;
+    background-color: #82756A;
+    color: #F4F4F4;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin: 30px;
+}
+
+/* 修正ボタン */
+.confirm__button--link {
+    color: #82756A;
+    font-size: 20px;
+    margin-left: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    text-decoration: underline;
+    text-decoration-color: #82756A;
+}

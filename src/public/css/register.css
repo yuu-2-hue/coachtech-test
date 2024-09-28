@@ -1,0 +1,87 @@
+body{
+    background-color: rgba(241, 236, 231, 1);
+}
+
+/* ログインボタン */
+.form__login--button {
+    width: 100px;
+    height: 34px;
+    background-color: rgba(240, 240, 240, 0.6);
+    color: rgba(217, 198, 181, 1);
+    border: 1px solid rgba(217, 198, 181, 1);
+    cursor: pointer;
+    transform: translateX(-50%);
+}
+
+/* ページ全体 */
+.register__content {
+    margin: 0 auto;
+    max-width: 1230px;
+}
+
+/* ページタイトル */
+.register__heading {
+    font-size: 35px;
+    text-align: center;
+    margin: 50px auto;
+    color: #8B7969;
+}
+
+/* 白い枠 */
+.register__content--frame{
+    margin: 0 auto;
+    margin-bottom: 100px;
+    width: 60%;
+    height: 80%;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgba(197, 185, 176, 1);
+}
+
+/* 入力欄のグループ */
+.register__group{
+    margin: 0px auto;
+    text-align: center;
+    width: 60%;
+}
+
+/* 入力欄の名前 */
+.register__title--item{
+    font-size: 25px;
+    color: rgba(139, 121, 105, 1);
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* 入力欄 */
+.register__input--item{
+    width: 445px;
+    height: 55px;
+    background-color: rgba(244, 244, 244, 1);
+    border: none;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/*  */
+.register__form{
+    margin: 60px auto;
+    text-align: center;
+}
+
+/* 登録ボタン */
+.form__button{
+    width: 120px;
+    height: 46px;
+    font-size: 20px;
+    background-color: rgba(130, 117, 106, 1);
+    border: none;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.name__error, .email__error, .password__error, .password-confirmation__error{
+    color: red;
+}
